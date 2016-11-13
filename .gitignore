@@ -46,6 +46,19 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Data source files including ephems and cdfs
-.eph
-.cdf
+#Data source files including ephems, cdfs, and pickles
+*.eph
+*.cdf
+*.p 
+
+#Hard linked files shared with PAD
+Convert.py
+equation_of_time.py
+SunEph.py
+ipy.py
+
+#Any updates to the .ipynb checkpoints directory
+.ipynb_*
+
+#python compile files
+*.pyc
