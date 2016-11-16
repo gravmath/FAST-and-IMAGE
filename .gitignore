@@ -62,3 +62,6 @@ ipy.py
 
 #python compile files
 *.pyc
+
+#zip files
+*.zip
